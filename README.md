@@ -197,7 +197,7 @@ $ python3 eagle-eye.py -h
 - [Selenium](https://www.seleniumhq.org/) - WebBrowser automation
 
 ## ✍️ Authors <a name = "authors"></a>
-- [@LeacsBB](https://github.com/LeacsBB) - Idea & Work
+- [@ThoughtfulDev](https://github.com/ThoughtfulDev) - Idea & Work
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 - The movie Eagle Eye
