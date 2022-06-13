@@ -34,7 +34,7 @@ def makeReport(name, links, preds, instnames):
     with open('tmp.html', 'w') as t:
         t.write(template_data)
     doc = HTML('tmp.html')
-    doc.write_pdf('{0}_Report.pdf'.format(name))
+    doc.write_pdf('result/{0}_Report.pdf'.format(name))
     os.remove('tmp.html')
 
 def makeJSONReport(name, links, preds, instnames, fn):
