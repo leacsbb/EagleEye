@@ -87,7 +87,7 @@ sudo docker run -t --net=host --env="DISPLAY" \
 sudo docker run -t --net=host --env="DISPLAY" \
                            --volume="$HOME/.Xauthority:/root/.Xauthority:rw"  \
                            -v  /path/to/known:/EagleEye/known \
-                           -v  /path/to/result:/result \
+                           -v  /path/to/result:/EagleEye/result \
                            -v /path/to/EagleEye/Repository/entry.sh:/entry.sh \
                            eagle-eye
 
