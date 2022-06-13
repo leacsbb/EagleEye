@@ -61,7 +61,7 @@ These instructions will get you a copy of the project up and running on your loc
 **Make sure that you use a LINUX distribution as the host**
 1. Clone the Repository
 
-   ``` $ git clone https://github.com/ThoughtfulDev/EagleEye ```
+   ``` $ git clone https://github.com/LeacsBB/EagleEye ```
 2. ```
    $ cd EagleEye
    $ sudo docker build -t eagle-eye .
@@ -86,7 +86,7 @@ The result should now be in `/path/to/result`
 
 #### Automated Prerequisites Installation (If Docker doesn't work)
 ```
-wget https://raw.githubusercontent.com/ThoughtfulDev/EagleEye/master/install.sh && chmod +x install.sh && ./install.sh
+wget https://raw.githubusercontent.com/LeacsBB/EagleEye/master/install.sh && chmod +x install.sh && ./install.sh
 ```
 
 ---
@@ -98,7 +98,7 @@ For **Debian** based Distros
 $ sudo apt update && sudo apt upgrade -y
 $ sudo apt install git python3 python3-pip python3-dev
 $ sudo apt install libgtk-3-dev libboost-all-dev build-essential cmake libffi-dev
-$ git clone https://github.com/ThoughtfulDev/EagleEye
+$ git clone https://github.com/LeacsBB/EagleEye
 $ cd EagleEye && sudo pip3 install -r requirements.txt
 $ sudo pip3 install --upgrade beautifulsoup4 html5lib spry
 ```
@@ -107,7 +107,7 @@ For **Arch**
 ```
 $ sudo pacman -Syu
 $ sudo pacman -S git python python-pip gtk3 boost cmake libffi
-$ git clone https://github.com/ThoughtfulDev/EagleEye
+$ git clone https://github.com/LeacsBB/EagleEye
 $ cd EagleEye && sudo pip3 install -r requirements.txt
 $ sudo pip3 install --upgrade beautifulsoup4 html5lib spry
 ```
@@ -184,7 +184,7 @@ $ python3 eagle-eye.py -h
 - [Selenium](https://www.seleniumhq.org/) - WebBrowser automation
 
 ## ✍️ Authors <a name = "authors"></a>
-- [@ThoughtfulDev](https://github.com/ThoughtfulDev) - Idea & Work
+- [@LeacsBB](https://github.com/LeacsBB) - Idea & Work
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 - The movie Eagle Eye
