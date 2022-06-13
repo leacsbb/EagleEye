@@ -59,6 +59,19 @@ These instructions will get you a copy of the project up and running on your loc
 #### Docker (Preferred)
 **Make sure that you have docker installed**
 **Make sure that you use a LINUX distribution as the host**
+
+##### Pre-built image
+1. Create a `known` folder and a `result` folder anywhere on ypur PC.
+2. Start the container. **Make sure to edit the paths and the arguments**:
+```
+sudo docker run -t --net=host --env="DISPLAY" \
+                           --volume="$HOME/.Xauthority:/root/.Xauthority:rw" \
+                           --volume="$HOME/EagleEye/known:/EagleEye/known" \
+                           --volume="$HOME/EagleEye/result:/EagleEye/result" \
+                           leacsbb/eagleeye ARGUMENTS
+```
+
+##### Build yourself
 1. Clone the Repository
 
    ``` $ git clone https://github.com/LeacsBB/EagleEye ```
